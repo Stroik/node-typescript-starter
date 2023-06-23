@@ -1,17 +1,21 @@
 {
-  "name": "typescript-starter",
+  "name": "node-typescript-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "dev:debug": "ts-node-dev --inspect=0.0.0.0:9229 src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node starter",
+    "typescript starter",
+    "node typescript starter"
+  ],
+  "author": "Augusto Marinaro",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.3.1",
